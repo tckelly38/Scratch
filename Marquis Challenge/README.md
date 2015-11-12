@@ -9,10 +9,10 @@ There are a couple of ways to tackle the problem.
 
 #  Option 1: 
    
-      The first method provides an exact solution using counting/probablity theory.  
-      Probablity theory was deleloped by Blaise Pascal to determinte the odds at gambling tables.
-      The book that describes this method, "A First Course in Probability", is on Steve's bookshelf;
-      however, it will probably put you to sleep before you find the answer.
+   The first method provides an exact solution using counting/probablity theory.  
+   Probablity theory was deleloped by Blaise Pascal to determinte the odds at gambling tables.
+   The book that describes this method, "A First Course in Probability", is on Steve's bookshelf;
+   however, it will probably put you to sleep before you find the answer.
 
 # Option 2:
 
