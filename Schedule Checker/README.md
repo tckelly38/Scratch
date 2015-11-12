@@ -34,10 +34,12 @@ And that's it! Leave this guy running in the background and you will be notified
 
 List of assumptions:
 
-*python and pip installed
+* python and pip installed
 
-*selenium, time, smtplib, and beautifulsoup4 installed
+* selenium, time, smtplib, and beautifulsoup4 installed
 
-*firefox installed(can switch to driver of your choice if you so desire)
+* firefox installed(can switch to driver of your choice if you so desire)
 
-*have valid credentials
+* have valid credentials
+
+* Has gmail account
