@@ -51,7 +51,6 @@ def login():
 
 	#Click Login button
 	mydriver.find_element_by_xpath(xpaths['submitButton']).click()
-	return
 	
 def navigateToSearchScreen():
 	#need to wait for page to load before searching for elements
@@ -93,8 +92,6 @@ def navigateToSearchScreen():
 	mydriver.find_element_by_xpath(xpaths['submitSearchButton']).click()
 	mydriver.find_element_by_xpath(xpaths['submitSearchButton']).click()
 	time.sleep(3)
-	
-	return
 	
 	
 def refreshSearch():
