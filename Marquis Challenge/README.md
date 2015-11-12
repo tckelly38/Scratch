@@ -2,7 +2,9 @@
 I was presented with this problem at Marquis Software, and my answer was chosen as the winning response
 
 Solution for Birthday Challenge
+
 Created by Tyler Kelly
+
 Simplified and Commented by Steve Payne
 
 There are a couple of ways to tackle the problem.  
