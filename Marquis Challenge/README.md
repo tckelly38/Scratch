@@ -6,13 +6,16 @@ Created by Tyler Kelly
 Simplified and Commented by Steve Payne
 
 There are a couple of ways to tackle the problem.  
-   Option 1: 
+
+#  Option 1: 
+   
       The first method provides an exact solution using counting/probablity theory.  
       Probablity theory was deleloped by Blaise Pascal to determinte the odds at gambling tables.
       The book that describes this method, "A First Course in Probability", is on Steve's bookshelf;
       however, it will probably put you to sleep before you find the answer.
 
-Option 2:
+# Option 2:
+
    The second method provides an approximate answer.  It uses an empirical or 
    experimental methodology.  The Concept is to perform an experiment as follows: 
       Pick 60 random people in a mall, and ask their birthdays
@@ -27,7 +30,8 @@ Option 1 is great for introverts because you don't need to talk to anyone; Howev
    it requires a course in probablity theory. option 2 is for extroverts because
    you will meet 6 million new friends and know their birthdays.
 
-Option 3:
+# Option 3:
+
    For the pragmatic, you can write a program to simulate the empirical method. 
    The commented program below shows how.  This method can be used to solve any
    counting problem.
