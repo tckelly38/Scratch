@@ -3,6 +3,8 @@ I was presented with this problem at Marquis Software, and my answer was chosen 
 
 Solution for Birthday Challenge
 
+**What is the probability that at least 6 out of 60 people have a birthday in the same 10 day period?**
+
 Created by Tyler Kelly
 
 Simplified and Commented by Steve Payne
