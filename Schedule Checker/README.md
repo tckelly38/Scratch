@@ -6,12 +6,19 @@ There are a couple dependencies needed to make this all work properly, I will as
 installed on ther machine.
 
 Run the follwoing commands from the command line (assuming your path variables are correctly set)
+
 `pip install selenium`
+
 and
+
 `pip install time`
+
 and 
+
 `pip install smtplib`
+
 as well as
+
 `pip install beautifulsoup4`
 
 
@@ -20,6 +27,7 @@ variables at the top of the screen with your data
 
 
 Run the navigateToPage.py by issuing the command:
+
 `python navigateToPage`
 
 And that's it! Leave this guy running in the background and you will be notified via email when your class is available
