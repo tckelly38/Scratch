@@ -42,4 +42,4 @@ List of assumptions:
 
 * have valid credentials
 
-* Has gmail account
+* have gmail account
