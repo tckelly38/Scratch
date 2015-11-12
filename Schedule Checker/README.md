@@ -3,9 +3,9 @@ This python script is meant as a notification tool for FSU class schedules. It i
 for any malicious purposes.
 
 There are a couple dependencies needed to make this all work properly, I will assume the user has python and pip
-installed on ther machine.
+installed on their machine.
 
-Run the follwoing commands from the command line (assuming your path variables are correctly set)
+Run the followoing commands from the command line (assuming your path variables are correctly set)
 
 `pip install selenium`
 
@@ -22,8 +22,8 @@ as well as
 `pip install beautifulsoup4`
 
 
-After setting up the appropriate dependencies, copy the code over to your notepad and then fill in the 
-variables at the top of the screen with your data
+After setting up the appropriate dependencies, copy the code from navigateToPage.py over to your notepad and then fill in the 
+variables at the top with your data.
 
 
 Run the navigateToPage.py by issuing the command:
