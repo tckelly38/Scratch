@@ -77,7 +77,7 @@ def navigateToSearchScreen():
 	mydriver.switch_to_frame("ptifrmtgtframe")
 	time.sleep(1)
 	
-	#this will select semester, 3 for spring 2016 as of fall 2015
+	#this will select semester based on user variable for year
 	select = Select(mydriver.find_element_by_id(xpaths['termDropBox']))
 	select.select_by_visible_text(desiredTerm)
 	time.sleep(3)
@@ -89,6 +89,7 @@ def navigateToSearchScreen():
 	mydriver.find_element_by_xpath(xpaths['courseNumberTextBox']).send_keys(desiredCourseNumber)
 	
 	#click search and go to search results
+	#need to click twice for chrome/firefox on windows10, not sure why, and untested on other platforms
 	mydriver.find_element_by_xpath(xpaths['submitSearchButton']).click()
 	mydriver.find_element_by_xpath(xpaths['submitSearchButton']).click()
 	time.sleep(3)
@@ -132,7 +133,7 @@ def downloadSource():
 		refreshSearch()
 	return foundFlag
 def downloadSourceLoop():
-	#keep researching until a match occurs
+	#keep re-searching until a match occurs
 	while(downloadSource() == False):
 		downloadSource()
 	#email user once we find a match
