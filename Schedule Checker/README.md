@@ -31,3 +31,13 @@ Run the navigateToPage.py by issuing the command:
 `python navigateToPage`
 
 And that's it! Leave this guy running in the background and you will be notified via email when your class is available
+
+List of assumptions:
+
+*python and pip installed
+
+*selenium, time, smtplib, and beautifulsoup4 installed
+
+*firefox installed(can switch to driver of your choice if you so desire)
+
+*have valid credentials
