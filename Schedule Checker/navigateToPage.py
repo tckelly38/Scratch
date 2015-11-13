@@ -22,6 +22,7 @@ password = "fsupassword"
 desiredTerm = "2016 Spring"
 desiredSubject = "CIS"
 desiredCourseNumber = "4930"
+#fill desiredClassName with whatever key expression you want the page to search for 
 desiredClassName = "PYTHON"
 emailAddress = "me@gmail.com"
 emailPassword = 'password'
