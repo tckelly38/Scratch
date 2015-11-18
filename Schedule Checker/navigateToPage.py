@@ -80,8 +80,12 @@ def navigateToSearchScreen():
 			 }
 
 	#click future tab
-	mydriver.find_element_by_xpath(xpaths['futureTab']).click()
-	
+	try:
+		mydriver.find_element_by_xpath(xpaths['futureTab']).click()
+	except NoSuchElementException:
+		mydriver.quit()
+		sys.exit("Invalid username and password combo")
+		
 	#click search icon that takes us to new search page
 	mydriver.find_element_by_xpath(xpaths['searchButton']).click()
 	
@@ -93,9 +97,13 @@ def navigateToSearchScreen():
 	time.sleep(1)
 	
 	#this will select semester based on user variable for year
-	select = Select(mydriver.find_element_by_id(xpaths['termDropBox']))
-	select.select_by_visible_text(desiredTerm)
-	time.sleep(3)
+	try:
+		select = Select(mydriver.find_element_by_id(xpaths['termDropBox']))
+		select.select_by_visible_text(desiredTerm)
+		time.sleep(3)
+	except NoSuchElementException:
+		mydriver.quit()
+		sys.exit("Invalid desired term")
 	
 	#set subject to desired
 	mydriver.find_element_by_xpath(xpaths['subjectTextBox']).send_keys(desiredSubject)
