@@ -1,18 +1,32 @@
+#sys used for exit messages on failed imports
+import sys
 #selenium used to navigate through webpages
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import Select
-from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.support.ui import Select
+try:
+	from selenium import webdriver
+	from selenium.webdriver.common.by import By
+	from selenium.webdriver.support.ui import Select
+	from selenium.common.exceptions import NoSuchElementException
+	from selenium.webdriver.support.ui import WebDriverWait
+	from selenium.webdriver.support import expected_conditions as EC
+	from selenium.common.exceptions import TimeoutException
+	from selenium.webdriver.support.ui import Select
+except ImportError:
+	sys.exit("You need selenium installed! Install using command `pip install selenium`")
 #time used to pause code so we can wait for refresh
-import time
+try:
+	import time
+except ImportError:
+	sys.exit("You need time installed! Install using command `pip install time`")
 #beautifulsoup used to grab contnent from webpage and then search for specific term
-from bs4 import BeautifulSoup
+try:
+	from bs4 import BeautifulSoup
+except ImportError:
+	sys.exit("You need beautifulsoup installed! Install using command `pip install beautifulsoup`")
 #smtplib used for email purposes
-import smtplib
+try:
+	import smtplib
+except ImportError:
+	sys.exit("You need smtplib installed! Install using command `pip install smtplib`")
 
 
 #global variables to be changed by the user
