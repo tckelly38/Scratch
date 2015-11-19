@@ -21,7 +21,7 @@ except ImportError:
 try:
 	from bs4 import BeautifulSoup
 except ImportError:
-	sys.exit("You need beautifulsoup installed! Install using command `pip install beautifulsoup`")
+	sys.exit("You need beautifulsoup4 installed! Install using command `pip install beautifulsoup4`")
 #smtplib used for email purposes
 try:
 	import smtplib
