@@ -1,1 +1,1 @@
-if you talk into the device like this it will eventually print some stuff out
+sorry
